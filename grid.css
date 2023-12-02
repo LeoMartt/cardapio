@@ -3,8 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
-    
+    box-sizing: border-box;
+    overflow-x: hidden 
 }
 
 body{
@@ -12,6 +12,8 @@ body{
     color: #ffff;
     font-family: 'Dancing Script', cursive;
     font-family: 'Kanit', sans-serif;
+    
+    
 }
 
 .title{
@@ -324,7 +326,8 @@ margin: auto;
 @media(max-width:1500px){
     *{
     font-family: 'Dancing Script', cursive;
-    font-family: 'Kanit', sans-serif; 
+    font-family: 'Kanit', sans-serif;
+    overflow-x: hidden 
     
         
     }
@@ -474,6 +477,7 @@ margin: auto;
         color: #ffff;
         font-family: 'Dancing Script', cursive;
         font-family: 'Kanit', sans-serif;
+        overflow-x: hidden
     }
     
    
@@ -592,6 +596,7 @@ margin: auto;
     }
     #salgados {
         margin-top: 50px;
+        
     }
     .grid-salgados{
     display: grid;
