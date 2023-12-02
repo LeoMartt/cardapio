@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    
+}
+
+body{
+    background-image: url(imagens/background.png);
+    color: #ffff;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+.title{
+    background-image: url(imagens/background.png);
+    max-width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family:'Patrick Hand', cursive;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing:0.1em;
+    text-transform: uppercase;
+    margin-bottom: -35px;
+}
+h2{
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color:#FDB301;
+    font-family:'Satisfy'
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    max-width: 140px;
+    margin: 0 auto;
+} 
+
+hr{
+    border: 2px solid white;
+    position: absolute;
+    top: 185px;
+    width: 100%;
+    z-index: -5;
+}
+
+
+
+li{
+    font-size:23px ;
+    list-style: none;
+    margin: 19px;
+    text-transform: capitalize;
+}
+.titleFont{
+    font-size:23px;
+    font-weight: 300;
+    margin-bottom: -7px;
+}
+
+.bebidas {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.opcao {    
+    display: grid;  
+    grid-template-columns: 286px 150px;
+    grid-template-rows: repeat(12, 340px);
+    max-width: 490px;
+    margin: 0 auto;
+    border-left: 3px solid white;
+    height: 650px;
+    padding-left: 2px;
+    margin-bottom: 40px;
+    
+
+}
+.bebidas h3 {
+    display: inline-block;
+}
+
+.preco,.precoESP{
+    background-color: #FDB301;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: #1e1e1e;
+    padding-left: 2px;
+    margin-top: 16px; 
+
+}
+.preco2{
+    background-color: #FDB301;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: #1e1e1e;
+    padding-left: 2px;
+    margin-top: 16px; 
+}
+
+.image img{
+    width: 100%;
+    height: 50vh;
+}
+.image1 img{
+    width: 100%;
+    height: 40vh;
+}
+
+
+/*PORÇÕES*/
+#porcoes{
+    height: 580px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+   
+   
+}
+#porcoes > h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center; 
+}
+
+.porcoesLinha{
+    margin-left: 15px;
+    border-left: 3px solid #ffff
+}
+
+h4{
+    font-size: 25px;
+    padding-left: 7px; 
+    font-weight: 400;
+}
+.porcoesLinha1 div{
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+
+.subFont{
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.porcoesGrid{
+    display:grid;
+    grid-template-columns: auto 100px;
+    margin-left: 15px;
+    border-left: 3px solid #ffff;
+}
+.listaxx{
+    padding-top: 40px;
+}
+
+.preco2{
+    margin-bottom: 42px;
+}
+
+/*PARMEGIANS*/
+/*PARMEGIANS*/
+.parmegiana1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 470px;
+    width: 100%;
+    margin: auto; 
+}
+
+.parmegiana1 > h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.parmegiana2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    max-width: 800px; 
+    margin: auto; 
+}
+
+.parmegiana2 li {
+    margin-top: -8px;
+    
+}
+
+.pri {
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 10px; 
+}
+
+
+/*Massas*/
+
+.massas{
+    display: grid;
+    padding: 5px 20px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:repeat(3,200px);
+}
+
+.flex{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.foto img{
+    width: 100%;
+    height: 30vh;
+}
+
+/*Guarnicoes*/
+.guarnicoes {
+    width: 100%;
+    margin: auto;
+    height: 400px;
+    margin-top: 45px;
+    max-width: 500px;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 45% 50%;
+    grid-template-rows: repeat(4,100px);
+    justify-items: flex-start;
+    column-gap: 40px;
+    border-left: 3px solid white;
+}
+.guarnicoes > p {
+    margin-top: 15px;
+}
+
+.guarnicao {
+    margin-top: 65px;
+}
+
+.flex-guarnicao {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.flex-guarnicao p {
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+}
+/*Salgados*/
+
+.grid-salgados>li{
+    margin-top: -12px;
+}
+
+.grid-salgados{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: auto;
+justify-items: center;
+row-gap: 30px;
+column-gap: 30px;
+max-width: 800px; 
+margin: auto;
+}
+
+/*Aperitivos*/
+
+.aperitivos{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    margin-top: 40px;
+    max-width: 500px;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(4,120px);
+    column-gap: 10px;
+    border-left: 3px solid white;
+}
+
+.flex-price{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.flex-info{
+    margin-top: 13.5px;
+}
+.flex-price>.titleFont{
+    margin-top: -40px;
+    height: 20px;
+}
+
+/*MENU*/
+
+@media(max-width:1500px){
+    *{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif; 
+    
+        
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    a{
+        color: #ffff;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        background-color:#FDB301;
+        
+    }
+    
+    #header{
+        box-sizing: border-box;
+        height: 120px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #010101;
+        width: 100%;
+    }
+    
+    #menu{
+        display: flex;
+        list-style: none;
+        gap: 0.5rem;
+    }
+    
+    #menu a {
+        display: block;
+        padding: 0.5rem;
+    }
+    
+    #btn-mobile{
+        display: none;
+        color: #e7e7e7;
+    }
+    
+    #menu{
+       
+        display: block;
+        position: absolute;
+        width: 40%;
+        top:120px;
+        left:0px;  
+        background: #010101;
+        transition: 0.6s;
+        height: 0px;
+        z-index: 5;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu{
+        height: calc(88vh - 120px); 
+        visibility: visible;
+        overflow-y: auto;
+        border-bottom-right-radius: 10px;
+    }
+
+    #menu a{
+        padding: 0.5rem 0;
+        margin: 0 1rem ;
+        border-bottom:  2px solid #ffff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .telefone {
+        padding: 0.5rem 0;
+        margin: 0 1rem ;
+        border-bottom:  2px solid #ffff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+ 
+    #informacoes{
+        margin: 10px;
+        color: #e7e7e7;
+        font-size: 17px;
+    }
+
+    .contato{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .contato img{ width:25px; height: 25px;}
+    .contato > p >a {
+        margin:5px 0px 9px 5px;
+        padding: 0;
+        border-bottom: none;
+    }
+
+
+
+    #btn-mobile{
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+        font-size: 18px;
+    }
+
+    #hamburger{
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after , #hamburger::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 1.0s;
+        position: relative;
+    }
+
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
+
+/* Add mobile-friendly styles */
+@media (max-width: 1000px) {
+
+    body{
+        color: #ffff;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+   
+   
+   
+   #informacoes{
+    margin: 5px;
+
+   }
+
+    .title{
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        font-family:'Patrick Hand', cursive;
+    }
+    h1{
+        font-size: 3em;
+        font-weight: 200;
+        letter-spacing:0.1em;
+        text-transform: uppercase;
+        margin-bottom: -35px;
+    }
+    h2{
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: 4px;
+        color:#FDB301;
+        font-family:'Satisfy'
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 40px;
+        max-width: 140px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    li{
+    font-size:20px ;
+    list-style: none;
+    margin: 10px;
+    text-transform: capitalize;
+    }
+    .listaxx{
+        padding-top: 42px;
+    }
+    .porcoesGrid{
+        display:grid;
+        grid-template-columns: auto 130px;
+        margin-left: 5px;
+        
+    }
+    .image img{
+        width: 100%;
+        height: 20vh;
+    }
+    .parmegiana1 {
+        text-align: center;
+    }
+    .parmegiana1 > h3 {
+        text-transform: uppercase;
+        font-size: 40px;
+        max-width: 360px;
+        margin-bottom: 20px;
+    }
+    .image1 img{
+        width: 100%;
+        height:30vh;
+    }
+    .foto img{
+        width: 100%;
+        height: 20vh;
+       
+    }
+    .flex{
+        padding-top: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        max-width: 360px;
+    }
+    .guarnicoes {
+        width: 100%;
+        margin: auto;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 5px;
+        max-width: 500px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 50% 15%;
+        grid-template-rows: repeat(4,100px);
+        justify-items: flex-start;
+        column-gap: 40px;
+        border-left: 3px solid white;
+    }
+    .guarnicao-item {
+    display: flex;
+    align-items: center; /* Para centralizar verticalmente o "P" ou "M" com o preço */
+    }
+
+    .flex-guarnicao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    #salgados {
+        margin-top: 50px;
+    }
+    .grid-salgados{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    max-width: 800px; 
+    margin: auto;
+    text-align: center;
+    }
+    .aperitivos{
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    margin-left: 5px;
+    margin-top: 40px;
+    max-width: 420px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(4);
+    column-gap: 10px;
+    border-left: 3px solid white;
+    }
+    .opcao {
+    display: grid;
+    grid-template-rows: repeat(16, 10vw);
+    max-width: 300px;
+    margin: 5px;  
+    border-left: 3px solid white;
+    margin-bottom: 2vw;
+    }
+    
+    .preco5 {
+    background-color: #fdb301;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: #1e1e1e;
+    padding-left: 2px;    
+    }
+}
+
