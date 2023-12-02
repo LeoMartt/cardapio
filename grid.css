@@ -12,8 +12,7 @@ body{
     color: #ffff;
     font-family: 'Dancing Script', cursive;
     font-family: 'Kanit', sans-serif;
-    
-    
+    max-width: 1200px;
 }
 
 .title{
@@ -477,7 +476,9 @@ margin: auto;
         color: #ffff;
         font-family: 'Dancing Script', cursive;
         font-family: 'Kanit', sans-serif;
-        overflow-x: hidden
+        overflow-x: hidden;
+        max-width: 1000px;
+    
     }
     
    
